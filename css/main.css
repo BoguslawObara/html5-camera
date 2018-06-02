@@ -1,0 +1,57 @@
+#video {
+  border: 1px solid black;
+  width: 320px;
+  height: 160px;
+  position: absolute;
+  margin: 0 auto;
+}
+
+#canvas {
+  border: 1px solid black;
+  width: 320px;
+  height: 160px;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+#photo {
+  visibility: hidden;
+  border: 1px solid black;
+}
+
+#button {
+  margin: 0 auto; 
+  background-color: rgba(0, 0, 0, 1);
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  font-size: 14px;
+  font-family: "Lucida Grande", "Arial", sans-serif;
+  color: rgba(255, 255, 255, 1.0);
+}
+
+.content
+{
+  width: 322px;
+}
+
+.video
+{
+  width: 320px;
+  height: 160px;
+  display: inline-block;
+}
+
+.button
+{
+  width: 100px;
+  height: 60px;
+  display: inline-block;
+}
+
+.photo
+{
+  width: 320px;
+  height: 160px;
+  display: inline-block;
+}
